@@ -1,0 +1,215 @@
+{
+    "message": "File processed successfully.",
+    "saved_records": 55,
+    "rejected_records": 44,
+    "errors": [
+        {
+            "row": 4,
+            "error": {
+                "email": [
+                    "Enter a valid email address."
+                ]
+            }
+        },
+        {
+            "row": 5,
+            "error": "Duplicate email in file: jane@example.com"
+        },
+        {
+            "row": 6,
+            "error": {
+                "age": [
+                    "Age must be between 0 and 120."
+                ]
+            }
+        },
+        {
+            "row": 7,
+            "error": {
+                "name": [
+                    "This field may not be blank."
+                ]
+            }
+        },
+        {
+            "row": 9,
+            "error": {
+                "age": [
+                    "Ensure this value is greater than or equal to 0."
+                ]
+            }
+        },
+        {
+            "row": 11,
+            "error": {
+                "email": [
+                    "Enter a valid email address."
+                ]
+            }
+        },
+        {
+            "row": 12,
+            "error": {
+                "name": [
+                    "This field may not be blank."
+                ]
+            }
+        },
+        {
+            "row": 14,
+            "error": {
+                "age": [
+                    "Age must be between 0 and 120."
+                ]
+            }
+        },
+        {
+            "row": 51,
+            "error": {
+                "age": [
+                    "Age must be between 0 and 120."
+                ]
+            }
+        },
+        {
+            "row": 54,
+            "error": "Duplicate email in file: emily.davis@example.com"
+        },
+        {
+            "row": 55,
+            "error": "Duplicate email in file: michael.brown@example.com"
+        },
+        {
+            "row": 56,
+            "error": "Duplicate email in file: sarah.johnson@example.com"
+        },
+        {
+            "row": 58,
+            "error": "Duplicate email in file: emma.taylor@example.com"
+        },
+        {
+            "row": 59,
+            "error": "Duplicate email in file: oliver.jones@example.com"
+        },
+        {
+            "row": 60,
+            "error": "Duplicate email in file: sophia.anderson@example.com"
+        },
+        {
+            "row": 61,
+            "error": "Duplicate email in file: william.lewis@example.com"
+        },
+        {
+            "row": 62,
+            "error": "Duplicate email in file: mia.harris@example.com"
+        },
+        {
+            "row": 63,
+            "error": "Duplicate email in file: james.walker@example.com"
+        },
+        {
+            "row": 64,
+            "error": "Duplicate email in file: isabella.hall@example.com"
+        },
+        {
+            "row": 65,
+            "error": "Duplicate email in file: lucas.martin@example.com"
+        },
+        {
+            "row": 66,
+            "error": "Duplicate email in file: charlotte.jackson@example.com"
+        },
+        {
+            "row": 67,
+            "error": "Duplicate email in file: ethan.white@example.com"
+        },
+        {
+            "row": 69,
+            "error": "Duplicate email in file: liam.wright@example.com"
+        },
+        {
+            "row": 70,
+            "error": "Duplicate email in file: amelia.baker@example.com"
+        },
+        {
+            "row": 71,
+            "error": "Duplicate email in file: elijah.adams@example.com"
+        },
+        {
+            "row": 72,
+            "error": "Duplicate email in file: harper.hill@example.com"
+        },
+        {
+            "row": 73,
+            "error": "Duplicate email in file: logan.allen@example.com"
+        },
+        {
+            "row": 74,
+            "error": "Duplicate email in file: ella.clark@example.com"
+        },
+        {
+            "row": 75,
+            "error": "Duplicate email in file: mason.king@example.com"
+        },
+        {
+            "row": 76,
+            "error": "Duplicate email in file: zoe.carter@example.com"
+        },
+        {
+            "row": 77,
+            "error": "Duplicate email in file: henry.rivera@example.com"
+        },
+        {
+            "row": 78,
+            "error": "Duplicate email in file: grace.cooper@example.com"
+        },
+        {
+            "row": 79,
+            "error": "Duplicate email in file: jackson.mitchell@example.com"
+        },
+        {
+            "row": 80,
+            "error": "Duplicate email in file: lily.perez@example.com"
+        },
+        {
+            "row": 81,
+            "error": "Duplicate email in file: benjamin.thomas@example.com"
+        },
+        {
+            "row": 82,
+            "error": "Duplicate email in file: victoria.rivera@example.com"
+        },
+        {
+            "row": 83,
+            "error": "Duplicate email in file: jacob.turner@example.com"
+        },
+        {
+            "row": 84,
+            "error": "Duplicate email in file: madison.parker@example.com"
+        },
+        {
+            "row": 85,
+            "error": "Duplicate email in file: daniel.torres@example.com"
+        },
+        {
+            "row": 86,
+            "error": "Duplicate email in file: scarlett.ramirez@example.com"
+        },
+        {
+            "row": 87,
+            "error": "Duplicate email in file: hannah.sanders@example.com"
+        },
+        {
+            "row": 88,
+            "error": "Duplicate email in file: sebastian.watson@example.com"
+        },
+        {
+            "row": 89,
+            "error": "Duplicate email in file: emily.brooks@example.com"
+        },
+        {
+            "row": 90,
+            "error": "Duplicate email in file: luke.kelly@example.com"
+        }
+    ]
+}

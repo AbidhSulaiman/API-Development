@@ -65,6 +65,7 @@ def upload_user_details(request):
             csv_reader = csv.DictReader(file_row_generator(file))
 
             for row_num, row in enumerate(csv_reader, start=1):
+                row_num +=1
                 email = row.get('email')
                 # Check for duplicate emails in the CSV
                 if email in seen_emails:
