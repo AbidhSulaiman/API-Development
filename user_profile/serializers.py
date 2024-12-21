@@ -10,6 +10,7 @@ class UserSerializer(serializers.ModelSerializer):
     class Meta:
         model = CustomUser
         fields = ['id','name', 'email', 'age']
+        
 
     def validate_name(self, value):
         """
@@ -18,6 +19,7 @@ class UserSerializer(serializers.ModelSerializer):
         if len(value) == 0:
             raise serializers.ValidationError("Name cannot be empty.")
         return value
+    
     
     def validate_age(self, value):
         """
