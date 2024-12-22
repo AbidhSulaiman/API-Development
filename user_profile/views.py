@@ -2,7 +2,7 @@ import csv
 from rest_framework.decorators import api_view
 from rest_framework.response import Response
 from rest_framework import status
-from .serializers import UserSerializer
+from .serializers import CustomUserSerializer
 from .models import CustomUser
 from django.db import transaction
 
@@ -78,7 +78,7 @@ def upload_user_details(request):
                 seen_emails.add(email)
                 
                 # Serialize data for user creation
-                serialized_data = UserSerializer(data=row)
+                serialized_data = CustomUserSerializer(data=row)
                 if serialized_data.is_valid():
                     user = CustomUser(**serialized_data.validated_data)
                     user_objects.append(user)
