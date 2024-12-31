@@ -43,6 +43,9 @@ MIDDLEWARE = [
     'django.contrib.auth.middleware.AuthenticationMiddleware',
     'django.contrib.messages.middleware.MessageMiddleware',
     'django.middleware.clickjacking.XFrameOptionsMiddleware',
+    
+    # custom middleware for api request rate limiting
+    'user_profile.middlewares.rate_limit_middleware.RateLimitMiddleware',
 ]
 
 ROOT_URLCONF = 'FileHandlerAPI.urls'
