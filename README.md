@@ -20,7 +20,7 @@ This project provides a **Django REST Framework (DRF) API** that processes user 
 1. **Clone the Repository**
    ```bash
    git clone https://github.com/AbidhSulaiman/API-Development.git
-   cd API Development
+
 
 2. **Create and activate a virtual environment**
    ```bash
